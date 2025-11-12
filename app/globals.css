@@ -123,3 +123,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Crystal/Glass morphism effects */
+@layer utilities {
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes pulse-slow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 3s ease-in-out infinite;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+  
+  /* Force pure black backgrounds for ETH logo */
+  .eth-logo-container,
+  .eth-logo-container * {
+    background-color: #000000 !important;
+    background: #000000 !important;
+  }
+  
+  .eth-logo-container img {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    mix-blend-mode: normal !important;
+  }
+}

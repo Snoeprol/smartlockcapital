@@ -8,10 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SmartLockCapital - Smart ETH Treasury Management",
+  title: "SmartLockCapital - Divine ETH Treasury Management | Next-Gen Protocol",
   description:
-    "Time-locked Ethereum vaults with smart contract security. Transparent and secure treasury management for the future of crypto.",
-  generator: "v0.app",
+    "Transcendent time-locked Ethereum vaults with crystalline security architecture. The new paradigm for institutional ETH treasury management.",
   icons: {
     icon: [
       {
@@ -37,8 +36,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans antialiased`}>
+    <html lang="en" suppressHydrationWarning style={{ scrollBehavior: 'smooth' }}>
+      <body className={`font-sans antialiased`} style={{ backgroundColor: '#000000' }}>
         {children}
         <Analytics />
       </body>

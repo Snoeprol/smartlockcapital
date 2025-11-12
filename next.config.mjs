@@ -6,6 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Ensure proper routing for Vercel
+  trailingSlash: false,
+  // Optimize for production
+  compress: true,
 }
 
 export default nextConfig

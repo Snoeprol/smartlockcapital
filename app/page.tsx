@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Lock, Shield, Zap, Users, TrendingUp, CheckCircle } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "SmartLockCapital - Smart ETH Treasury Management",
+  description: "Time-locked Ethereum vaults with smart contract security. Transparent and secure treasury management for the future of crypto.",
+}
 
 export default function Home() {
   return (

@@ -18,8 +18,7 @@ export default function Home() {
   }
 
   const handleLaunchApp = () => {
-    // Replace with your actual app URL
-    window.open('https://app.smartlockcapital.com', '_blank')
+    window.location.href = '/app'
   }
 
   const handleBeginAscension = () => {
@@ -31,7 +30,7 @@ export default function Home() {
   }
 
   const handleLaunchVault = () => {
-    window.open('https://app.smartlockcapital.com/vaults/create', '_blank')
+    window.location.href = '/app'
   }
 
   const handleScheduleDemo = () => {
@@ -93,21 +92,17 @@ export default function Home() {
           <div className="relative flex flex-col items-center text-center gap-12 max-w-6xl mx-auto">
             {/* ETH Logo Hero */}
             <div className="eth-logo-container relative mb-8" style={{ backgroundColor: '#000000' }}>
-              <div className="relative w-64 h-64 md:w-80 md:h-80 flex items-center justify-center mx-auto" style={{ backgroundColor: '#000000', padding: 0, margin: 0, borderRadius: 0 }}>
-                <div className="relative w-full h-full flex items-center justify-center overflow-visible" style={{ backgroundColor: '#000000', padding: 0, margin: 0, borderRadius: 0 }}>
-                  <div style={{ backgroundColor: '#000000', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Image 
-                      src="/eth-logo.gif" 
-                      alt="Ethereum Diamond" 
-                      width={320} 
-                      height={320}
-                      className="object-contain animate-pulse-slow"
-                      style={{ backgroundColor: '#000000', display: 'block', maxWidth: '100%', maxHeight: '100%' }}
-                      unoptimized
-                      priority
-                    />
-                  </div>
-                </div>
+              <div className="relative w-64 h-64 md:w-80 md:h-80 flex items-center justify-center mx-auto" style={{ backgroundColor: '#000000', padding: 0, margin: 0 }}>
+                <Image 
+                  src="/eth-logo.gif" 
+                  alt="Ethereum Diamond" 
+                  width={320} 
+                  height={320}
+                  className="w-full h-full object-contain animate-pulse-slow"
+                  style={{ backgroundColor: '#000000' }}
+                  unoptimized
+                  priority
+                />
               </div>
             </div>
 

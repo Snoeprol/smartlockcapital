@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" fill="#000000"/>
+  <path d="M90 20L112.5 67.5L90 90L67.5 67.5L90 20Z" fill="#627EEA"/>
+  <path d="M67.5 67.5L90 90L67.5 112.5L45 90L67.5 67.5Z" fill="#627EEA"/>
+  <path d="M112.5 67.5L90 90L112.5 112.5L135 90L112.5 67.5Z" fill="#627EEA"/>
+  <path d="M90 90L112.5 112.5L90 135L67.5 112.5L90 90Z" fill="#627EEA"/>
+  <path d="M90 90L67.5 67.5L45 90L67.5 112.5L90 90Z" fill="#627EEA" opacity="0.8"/>
+  <path d="M90 90L112.5 67.5L135 90L112.5 112.5L90 90Z" fill="#627EEA" opacity="0.8"/>
+  <path d="M90 90L67.5 112.5L90 135L112.5 112.5L90 90Z" fill="#627EEA" opacity="0.6"/>
+</svg>
